@@ -23,12 +23,7 @@ const Book = () => (
 )
 
 const Image = () => {
-  return (
-    <img
-      src="https://images-na.ssl-images-amazon.com/images/I/61BWsc9eGbL._AC_UL600_SR600,400_.jpg"
-      alt="The Woman in Me"
-    ></img>
-  )
+  return <img src="../public/images/book-1.jpg" alt="The Woman in Me"></img>
 }
 const Title = () => {
   return <h2>The Woman in Me</h2>
