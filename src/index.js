@@ -1,9 +1,11 @@
 import React from 'react'
 import { createRoot } from 'react-dom/client'
 
+import './index.css'
+
 const BookList = () => {
   return (
-    <section>
+    <section className="booklist">
       <Book></Book>
       <Book></Book>
       <Book></Book>
@@ -13,7 +15,7 @@ const BookList = () => {
 }
 
 const Book = () => (
-  <article>
+  <article className="book">
     <Image />
     <Title />
     <Author />
