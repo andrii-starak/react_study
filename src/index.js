@@ -14,28 +14,19 @@ const BookList = () => {
   )
 }
 
-const Book = () => (
-  <article className="book">
-    <Image />
-    <Title />
-    <Author />
-  </article>
-)
+const Book = () => {
+  return (
+    <article className="book">
+      <img
+        src="./images/book-1.jpg"
+        alt="Interesting Facts For Curious Minds"
+      />
+      <h2>Interesting Facts For Curious Minds</h2>
+      <h4>Jordan Moore </h4>
+    </article>
+  )
+}
 
-const Image = () => {
-  return <img src="../public/images/book-1.jpg" alt="The Woman in Me"></img>
-}
-const Title = () => {
-  return <h2>The Woman in Me</h2>
-}
-const Author = () => {
-  const inlineHeadingStyles = {
-    color: '#617d98',
-    fontSize: '0.75rem',
-    marginTop: '0.5rem',
-  }
-  return <h4 style={inlineHeadingStyles}>Britney Spears</h4>
-}
 const root = createRoot(document.getElementById('root'))
 
 root.render(<BookList></BookList>)
