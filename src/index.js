@@ -20,8 +20,13 @@ const books = [
 // const title = 'Interesting Facts For Curious Minds'
 // const img = './images/book-1.jpg'
 
+const names = ['john', 'peter', 'susan']
+const newNames = names.map((name) => {
+  return <h1>{name}</h1>
+})
+console.log(newNames)
 const BookList = () => {
-  return <section className="booklist">{books}</section>
+  return <section className="booklist">{names}</section>
 }
 const Book = (props) => {
   const { img, title, author } = props
