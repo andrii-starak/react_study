@@ -4,5 +4,7 @@
   "semi": false,
   "singleQuote": true,
   "arrowParens": "always",
-  "jsxSingleQuote": false
+  "jsxSingleQuote": false,
+  "bracketSpacing": true,
+  "proseWrap": "always"
 }

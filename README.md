@@ -6,34 +6,32 @@
 
 #### Support
 
-Find the Content Useful? [You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
+Find the Content Useful?
+[You can always buy me a coffee](https://www.buymeacoffee.com/johnsmilga)
 
 #### Folder Structure
 
-- node_modules
-  Contains all dependencies required by the app. Main dependencies also listed in package.json
+- node_modules Contains all dependencies required by the app. Main dependencies
+  also listed in package.json
 
-- public
-  Contains static assets including index.html (page template)
+- public Contains static assets including index.html (page template)
   - index.html
     - title
     - fonts
     - css
     - favicon
     - id="root" - our entire app
-- src
-  In simplest form it's the brain of our app. This is where we will do all of our work. src/index.js is the JavaScript entry point.
-- .gitignore
-  Specifies which files source control (Git) should ignore
+- src In simplest form it's the brain of our app. This is where we will do all
+  of our work. src/index.js is the JavaScript entry point.
+- .gitignore Specifies which files source control (Git) should ignore
 
-- package.json
-  Every Node.js project has a package.json and it contains info about our project, for example list of dependencies and scripts
+- package.json Every Node.js project has a package.json and it contains info
+  about our project, for example list of dependencies and scripts
 
-- package-lock.json
-  A snapshot of the entire dependency tree
+- package-lock.json A snapshot of the entire dependency tree
 
-- README
-  The markdown file where you can share more info about the project for example build instructions and summary
+- README The markdown file where you can share more info about the project for
+  example build instructions and summary
 
 - zoom 175%
 
@@ -443,8 +441,8 @@ const Book = () => {
 
 - external images (hosted on different server) - just need an url
 - local images (public folder) - less performant
-- local images (src folder) - better solution for assets,
-  since under the hood they get optimized.
+- local images (src folder) - better solution for assets, since under the hood
+  they get optimized.
 
 - save image (Save Image As....)
 - create images folder in public
@@ -487,8 +485,7 @@ const Author = () => (
 }
 ```
 
-- external libraries use inline css,
-  so if you want to make some changes,
+- external libraries use inline css, so if you want to make some changes,
   reference the library docs and elements tab
 
 - alternative option
@@ -537,8 +534,7 @@ const Book = () => {
 ```
 
 - {} in JSX means going back to JS Land
-- value inside must be an expression (return value),
-  can't be a statement
+- value inside must be an expression (return value), can't be a statement
 
 ```js
 const author = 'Jordan Moore'
@@ -613,7 +609,8 @@ const Book = (props) => {
 }
 ```
 
-- props object, convention to call props, 'shakeAndBake' is an excellent alternative
+- props object, convention to call props, 'shakeAndBake' is an excellent
+  alternative
 
 - pass as key/value pairs
 - if the prop exists it will return value, otherwise no value
